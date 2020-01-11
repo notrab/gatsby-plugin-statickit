@@ -1,0 +1,29 @@
+{
+  "name": "gatsby-plugin-statickit",
+  "description": "Instantiate the StaticKit provider with Gatsby with minimal configuration.",
+  "version": "1.1.0",
+  "author": "Jamie Barton <jamie@notrab.dev> (https://twitter.com/notrab)",
+  "repository": "notrab/gatsby-plugin-statickit",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "statickit"
+  ],
+  "scripts": {
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "devDependencies": {
+    "prettier": "1.18.2"
+  },
+  "peerDependencies": {
+    "@statickit/react": "^2.0.1",
+    "gatsby": "^2.10"
+  }
+}
