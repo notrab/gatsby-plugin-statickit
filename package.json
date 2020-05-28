@@ -23,7 +23,7 @@
     "prettier": "1.18.2"
   },
   "peerDependencies": {
-    "@statickit/react": "^2.0.1",
-    "gatsby": "^2.10"
+    "@statickit/react": "^2.1.1",
+    "gatsby": "^2.22.11"
   }
 }
